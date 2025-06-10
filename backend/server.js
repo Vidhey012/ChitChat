@@ -22,8 +22,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    // origin: ["http://localhost:3000"],
-    origin: ["http://localhost:3000", "https://chit-chat-khaki-one.vercel.app"],
+    origin: ["http://localhost:3000"],
+    // origin: ["http://localhost:3000", "https://chit-chat-khaki-one.vercel.app"],
     methods: "GET, POST, PATCH, DELETE, PUT",
     credentials: true,
   })

@@ -1,5 +1,5 @@
-// const BASE_URL = "http://localhost:5000";
-const BASE_URL = "https://chit-chat-khaki-one.vercel.app";
+const BASE_URL = "http://localhost:5000";
+// const BASE_URL = "https://chit-chat-khaki-one.vercel.app";
 
 const fetchWithBaseUrl = async (endpoint, options = {}) => {
   const url = `${BASE_URL}${endpoint}`;

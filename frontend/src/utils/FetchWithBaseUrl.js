@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000";
+// const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://chitchat071.netlify.app";
 
 const fetchWithBaseUrl = async (endpoint, options = {}) => {
   const url = `${BASE_URL}${endpoint}`;

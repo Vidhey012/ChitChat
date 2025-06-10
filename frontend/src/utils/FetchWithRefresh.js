@@ -1,4 +1,5 @@
-const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://chitchat071.netlify.app/api";
 
 const fetchWithRefresh = async (url, options = {}) => {
   try {

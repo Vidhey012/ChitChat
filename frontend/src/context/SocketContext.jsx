@@ -15,7 +15,8 @@ export const SocketContextProvider = ({ children }) => {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io("http://localhost:5000", {
+      // const socket = io("http://localhost:5000", {
+      const socket = io("https://chitchat071.netlify.app", {
         query: {
           userId: authUser._id,
         },

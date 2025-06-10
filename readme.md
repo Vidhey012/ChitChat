@@ -3,7 +3,7 @@
 
 A real-time chat application with user authentication, built using **Zustand**, **React**, **Node.js**, **Express**, **MongoDB**, and **Socket.io**.
 
-🌐 **Live Demo:** [https://chitchat071.netlify.app/](https://chitchat071.netlify.app/)
+🌐 **Live Demo:** [https://chit-chat-khaki-one.vercel.app/](https://chit-chat-khaki-one.vercel.app/)
 
 ![Chat App Screenshot](./frontend/public/ss.png) <!-- Add screenshot in public folder if not already -->
 
@@ -108,4 +108,4 @@ The app will open on `http://localhost:3000`
 
 ## 🚀 Go Live
 #### The application is hosted and live at:
-🔗 [https://chitchat071.netlify.app/](https://chitchat071.netlify.app/)
+🔗 [https://chit-chat-khaki-one.vercel.app/](https://chit-chat-khaki-one.vercel.app/)

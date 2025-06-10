@@ -1,4 +1,5 @@
 {
+ "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "builds": [
     {
@@ -8,7 +9,9 @@
     {
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "frontend/dist" }
+      "config": {
+        "distDir": "frontend/dist"
+      }
     }
   ],
   "routes": [
@@ -20,7 +23,7 @@
       "handle": "filesystem"
     },
     {
-      "src": "/(?!api\\/.*).*", 
+      "src": "/(?!api\\/.*).*",
       "dest": "/frontend/dist/index.html"
     }
   ]
